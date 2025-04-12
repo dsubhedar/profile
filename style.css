@@ -1,0 +1,80 @@
+/* Style for the profile picture */
+.profile-picture {
+    display: block; /* Centers the image horizontally */
+    margin: 0 auto; /* Centers the image horizontally */
+    border-radius: 50%; /* Makes the image circular */
+    max-width: 50px; /* Sets the maximum width of the image */
+    margin-top: 1rem; /* Adds space above the image */
+    transform: rotate(360deg); /* Initial rotation */
+    transition: transform 0.5s ease-in-out, scale 0.5s ease-in-out; /* Smooth transition for rotation and scaling */
+}
+
+/* Style for highlighted text */
+.highlight {
+    color: black; /* Sets text color */
+    text-shadow: 0 0 5px #fff, 0 0 10px #a9a9a9, 0 0 20px #a9a9a9, 0 0 30px #a9a9a9, 0 0 40px #a9a9a9, 0 0 50px #a9a9a9, 0 0 75px #a9a9a9; /* Adds glowing effect */
+}
+
+/* Hover effect for the profile picture */
+.profile-picture:hover {
+    transform: rotate(720deg) scale(1.5); /* Rotates and scales the image on hover */
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family */
+    line-height: 1.0; /* Sets line height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Includes padding and border in element's total width and height */
+}
+
+/* Header styling */
+header {
+    background: #333; /* Sets background color */
+    color: #fff; /* Sets text color */
+    padding: 1rem 0; /* Adds padding to top and bottom */
+    text-align: center; /* Centers the text */
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+}
+
+nav ul li {
+    display: inline; /* Displays list items inline */
+    margin: 0 10px; /* Adds horizontal spacing between items */
+}
+
+nav ul li a {
+    color: #fff; /* Sets link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Section styling */
+section {
+    padding: 1px; /* Adds minimal padding */
+}
+
+/* Footer styling */
+footer {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+}
+
+footer img {
+    max-width: 100px; /* Sets maximum width for images */
+    margin-bottom: 1rem; /* Adds space below the image */
+}
+
+/* Additional footer styling */
+footer {
+    background: #333; /* Sets background color */
+    color: #fff; /* Sets text color */
+    text-align: center; /* Centers the text */
+    padding: 0.1rem 0; /* Adds padding to top and bottom */
+    margin-top: 0.1rem; /* Adds space above the footer */
+}

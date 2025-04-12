@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Profile picture -->
+    <img src="Images/ds.jfif" alt="Deepak Subhedar" class="profile-picture">
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deepak Subhedar Professional Profile Page">
+    
+    <!-- Page title -->
+    <title>Deepak Subhedar Professional Profile</title>
+    
+    <!-- External CSS and JavaScript -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Deepak Subhedar</h1>
+        <p>IT Professional | Software Engineer | Tech Enthusiast</p>
+        
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="#about" onclick="highlightAbout('about')">About</a></li>
+                <li><a href="#skills" onclick="highlightAbout('skills')">Skills</a></li>
+                <li><a href="#projects" onclick="highlightAbout('projects')">Projects</a></li>
+                <li><a href="#contact" onclick="highlightAbout('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main content -->
+    <main>
+        <!-- About section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Deepak Subhedar, an experienced IT professional with a passion for solving complex problems and building innovative solutions. I specialize in software development, system architecture, and cloud technologies.</p>
+            <!-- Button to change background of the About section -->
+            <button onclick="changeAboutBackground()">Change About Section Background</button>
+        </section>
+        
+        <!-- Skills section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, <b>JavaScript</b>, <b>C#</b></li>
+                <li>Web Development: <b>HTML</b>, <b>CSS</b>, React, Angular, Bootstrap</li>
+                <li>Cloud Platforms: AWS, Azure</li>
+                <li>Database Management: MySQL, MongoDB</li>
+                <li>DevOps: Docker, Kubernetes, CI/CD</li>
+            </ul>
+        </section>
+        
+        <!-- Projects section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <!-- Project 1 -->
+            <article>
+                <h3>Project Management Tool</h3>
+                <p>Developed a web-based project management tool to streamline team collaboration and task tracking.</p>
+            </article>
+            <!-- Project 2 -->
+            <article>
+                <h3>E-commerce Platform</h3>
+                <p>Built a scalable e-commerce platform with secure payment integration and user-friendly design.</p>
+            </article>
+        </section>
+        
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: deepaksubhedar@example.com</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/deepaksubhedar" target="_blank">linkedin.com/in/deepaksubhedar</a></p>
+            <p>GitHub: <a href="https://github.com/deepaksubhedar" target="_blank">github.com/deepaksubhedar</a></p>
+        </section>
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Deepak Subhedar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
